@@ -30,13 +30,24 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+    users:
+      new:
+        title: "Sign up"
+        h1_title: "Sign up"
+        p_content1: "This will be a signup page for new users."
     static_pages:
+      contact:
+        title: "Contact"
+        h1_title: "Contact"
+        p_content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+        link1: "contact page"
       home:
         title: "Home"
-        h1_title: "Sample App"
+        h1_title: "Welcome to the sample App"
         p_content1: "This is the home page for the"
         p_content2: "sample application."
         link1: "Ruby on Rails Tutorial"
+        link2: "Sign up now!"
       help:
         title: "Help"
         h1_title: "Help"
@@ -59,7 +70,18 @@ en:
         p_content2: "to teach web development with"
         link3: "Ruby on Rails"
     layouts:
-      application:
+      header:
         title: "Ruby on Rails Tutorial Sample App"
-
+        link1: "Sample app"
+        link_home: "Home"
+        link_help: "Help"
+        link_login: "Log in"
+      footer:
+        the: "The"
+        by: "by"
+        link1: "Ruby on Rails Tutorial"
+        link2: "Michael Hartl"
+        link3: "About"
+        link4: "Contact"
+        link5: "New"
     base_content: "Ruby on Rails Tutorial Sample App"
