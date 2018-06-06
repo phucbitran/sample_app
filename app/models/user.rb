@@ -1,3 +1,6 @@
+
+# frozen_string_literal: true
+
 class User < ApplicationRecord
   before_save{email.downcase!}
   validates :name, presence: true, lenght: {maximum: 50}
