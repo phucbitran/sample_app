@@ -77,7 +77,7 @@ en:
         link_help: "Help"
         link_login: "Log in"
       footer:
-        The: "The"
+        the: "The"
         by: "by"
         link1: "Ruby on Rails Tutorial"
         link2: "Michael Hartl"
@@ -85,5 +85,3 @@ en:
         link4: "Contact"
         link5: "New"
     base_content: "Ruby on Rails Tutorial Sample App"
-
-
