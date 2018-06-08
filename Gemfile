@@ -25,7 +25,7 @@ gem "jbuilder", "~> 2.5"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 # Use ActiveModel has_secure_password
-# gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.7"
 
 # Use ActiveStorage variant
 # gem "mini_magick", "~> 4.8"
@@ -38,6 +38,7 @@ gem "bootsnap", ">= 1.1.0", require: false
 gem "rubocop", "~> 0.49.1", require: false
 gem "bootstrap-sass", "~> 3.3", ">= 3.3.7"
 gem "rails-controller-testing", "~> 1.0", ">= 1.0.2"
+gem "config", "~> 1.7"
 
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger console
