@@ -30,63 +30,80 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-    users:
-      new:
-        title: "Sign up"
-        h1_title: "Sign up"
-        p_content1: "This will be a signup page for new users."
-        lb_name: "Name"
-        lb_email: "Email"
-        lb_password: "Password"
-        lb_confirmPW: "Confirmation"
-        sm_sub: "Create my account"
-    static_pages:
-      contact:
-        title: "Contact"
-        h1_title: "Contact"
-        p_content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
-        link1: "contact page"
-      home:
-        title: "Home"
-        h1_title: "Welcome to the sample App"
-        p_content1: "This is the home page for the"
-        p_content2: "sample application."
-        link1: "Ruby on Rails Tutorial"
-        link2: "Sign up now!"
-      help:
-        title: "Help"
-        h1_title: "Help"
-        p_content1: "Get help on the Ruby on Rails Tutorial at the"
-        p_content2: "To get help on this sample app, see the"
-        p_help: "help"
-        link1: "Rails Tutorial help"
-        link2: "Ruby on Rails Tutorial"
-        p_tuto: "Tutorial"
-        p_book: "book"
-      about:
-        title: "About"
-        h1_title: "About"
-        p_content1: "This is the sample application for the tutorial."
-        link: "Ruby on Rails Tutorial"
-        link1: "book"
-        is_a: "is a"
-        link2: "screencast series"
-        and: "and"
-        p_content2: "to teach web development with"
-        link3: "Ruby on Rails"
-    layouts:
-      header:
-        title: "Ruby on Rails Tutorial Sample App"
-        link1: "Sample app"
-        link_home: "Home"
-        link_help: "Help"
-        link_login: "Log in"
-      footer:
-        the: "The"
-        by: "by"
-        link1: "Ruby on Rails Tutorial"
-        link2: "Michael Hartl"
-        link3: "About"
-        link4: "Contact"
-        link5: "New"
-    base_content: "Ruby on Rails Tutorial Sample App"
+  invalid_msg: "Invalid email/password combination"
+
+  sessions:
+    new:
+      title: "Log in"
+      h1_title: "Log in"
+      lb_email: "Email"
+      lb_password: "Password"
+      sm_sub: "Log in"
+      p_content: "New user?"
+      link: "Sign up now!"
+
+  users:
+    new:
+      title: "Sign up"
+      h1_title: "Sign up"
+      p_content1: "This will be a signup page for new users."
+      lb_name: "Name"
+      lb_email: "Email"
+      lb_password: "Password"
+      lb_confirmPW: "Confirmation"
+      sm_sub: "Create my account"
+  static_pages:
+    contact:
+      title: "Contact"
+      h1_title: "Contact"
+      p_content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      link1: "contact page"
+    home:
+      title: "Home"
+      h1_title: "Welcome to the sample App"
+      p_content1: "This is the home page for the"
+      p_content2: "sample application."
+      link1: "Ruby on Rails Tutorial"
+      link2: "Sign up now!"
+    help:
+      title: "Help"
+      h1_title: "Help"
+      p_content1: "Get help on the Ruby on Rails Tutorial at the"
+      p_content2: "To get help on this sample app, see the"
+      p_help: "help"
+      link1: "Rails Tutorial help"
+      link2: "Ruby on Rails Tutorial"
+      p_tuto: "Tutorial"
+      p_book: "book"
+    about:
+      title: "About"
+      h1_title: "About"
+      p_content1: "This is the sample application for the tutorial."
+      link: "Ruby on Rails Tutorial"
+      link1: "book"
+      is_a: "is a"
+      link2: "screencast series"
+      and: "and"
+      p_content2: "to teach web development with"
+      link3: "Ruby on Rails"
+  layouts:
+    header:
+      title: "Ruby on Rails Tutorial Sample App"
+      link1: "Sample app"
+      link_home: "Home"
+      link_help: "Help"
+      link_login: "Log in"
+      link_user: "Users"
+      p_content: "Account"
+      link_Profile: "Profile"
+      link_Settings: "Settings"
+      Logout: "Log out"
+    footer:
+      the: "The"
+      by: "by"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Michael Hartl"
+      link3: "About"
+      link4: "Contact"
+      link5: "New"
+  base_content: "Ruby on Rails Tutorial Sample App"

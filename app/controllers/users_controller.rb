@@ -6,12 +6,14 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find_by id: params[:id]
+    redirect_to root_path if @user.nil?
   end
 
   def create
     @user = User.new user_params
     if @user.save
+      log_in @user
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
     else
