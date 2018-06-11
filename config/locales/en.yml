@@ -30,8 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  invalid_msg: "Invalid email/password combination"
 
+  invalid_msg: "Invalid email/password combination"
   sessions:
     new:
       title: "Log in"
@@ -42,6 +42,14 @@ en:
       p_content: "New user?"
       link: "Sign up now!"
 
+  msg_not_find: "Do not find user"
+  shared:
+    error_messages:
+      p_content: "The form contains"
+      p_content1: "error"
+  controllers:
+    users_controller:
+      flash_content: "Welcome to the Sample App!"
   users:
     new:
       title: "Sign up"
@@ -93,6 +101,7 @@ en:
       link_home: "Home"
       link_help: "Help"
       link_login: "Log in"
+
       link_user: "Users"
       p_content: "Account"
       link_Profile: "Profile"

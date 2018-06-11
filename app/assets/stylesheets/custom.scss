@@ -6,10 +6,12 @@ $light-gray: #777;
 $gray-medium-light: #eaeaea;
 $gray: #555;
 $gray-darker: #222;
+$gray-boder: #bbb;
+
 @mixin box_sizing {
-  -moz-box-sizing:    border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
+  box-sizing: border-box;
 }
 
 /* universal */
@@ -59,7 +61,7 @@ p {
 }
 
 /* header */
-#logo {
+.logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -146,7 +148,7 @@ aside {
 
 /* forms */
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $gray-boder;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -157,6 +159,7 @@ input {
 }
 
 #error_explanation {
+.error_explanation {
   color: red;
   ul {
     color: red;
