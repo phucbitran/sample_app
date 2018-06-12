@@ -30,6 +30,20 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  user: "Users"
+  login: "Log in"
+  log_out: "Log out"
+  settings: "Settings"
+  profile: "Profile"
+  account: "Account"
+  msg_invalid: "Invalid email/password combination"
+  new_user: "New user?"
+  lb_email: "Email"
+  lb_pass: "Password"
+  sessions:
+    new:
+      title: "Log in"
+      signupnow: "Sign up now!"
   msg_not_find: "Do not find user"
   shared:
     error_messages:

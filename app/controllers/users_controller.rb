@@ -8,12 +8,13 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     redirect_to root_path if @user.nil?
-    flash[:danger] = t "msg_not_find"
+    flash.now[:danger] = t "msg_not_find"
   end
 
   def create
     @user = User.new user_params
     if @user.save
+      log_in @user
       flash[:success] = t ".flash_content"
       redirect_to @user
     else
