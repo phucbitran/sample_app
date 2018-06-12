@@ -39,6 +39,7 @@ gem "rubocop", "~> 0.49.1", require: false
 gem "bootstrap-sass", "~> 3.3", ">= 3.3.7"
 gem "rails-controller-testing", "~> 1.0", ">= 1.0.2"
 gem "config", "~> 1.7"
+gem "jquery-rails"
 
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger console
