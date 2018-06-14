@@ -40,6 +40,9 @@ gem "bootstrap-sass", "~> 3.3", ">= 3.3.7"
 gem "rails-controller-testing", "~> 1.0", ">= 1.0.2"
 gem "config", "~> 1.7"
 gem "jquery-rails"
+gem "faker", "~> 1.8", ">= 1.8.7"
+gem "will_paginate", "~> 3.1", ">= 3.1.6"
+gem "bootstrap-will_paginate", "~> 1.0"
 
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger console
