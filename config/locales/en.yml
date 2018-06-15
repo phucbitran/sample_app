@@ -30,6 +30,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  account_not_activated: "Account not activated.Check your email for the activation link"
+  invalid_activation_link: "invalid_activation_link"
+  account_activated: "Account activated!"
+  mail_msg: "Please check your email to activate your account."
+  activate: "Activate"
+  sample_app: "Sample App"
+  hi: "Hi"
+  email_content: "Welcome to the Sample App! Click on the link below to activate your account:"
+  flash_content: "Welcome to the Sample App!"
   success: "User Deleted"
   danger: "Can't Delete"
   user_nil: "Do not find user"

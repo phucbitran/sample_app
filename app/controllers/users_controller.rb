@@ -19,9 +19,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".flash_content"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "mail_msg"
+      redirect_to root_path
     else
       render :new
     end
@@ -41,7 +41,7 @@ class UsersController < ApplicationController
   def destroy
     msg = :danger
     msg = :success if @user.destroy
-    flash[:success] = t "#{msg}"
+    flash[:success] = t msg.to_s
     redirect_to users_path
   end
 
