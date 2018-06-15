@@ -4,3 +4,4 @@ password_min_length: 6
 size: 80
 checkbox: "1"
 gravatar: 50
+time_reset: 2
