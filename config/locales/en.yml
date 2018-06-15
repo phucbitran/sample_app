@@ -30,6 +30,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  success: "User Deleted"
+  danger: "Can't Delete"
+  user_nil: "Do not find user"
+  you_sure: "You sure?"
+  delete: "Delete"
+  all_users: "All users"
+  please_log_in: "Please log in."
+  profile_updated: "Profile updated"
+  create_my_account: "Create my account"
+  change: "Change"
+  update_your_profile: "Update your profile"
+  edit_user: "Edit user"
   remember_me: "remember_me"
   user: "Users"
   login: "Log in"
@@ -39,8 +51,11 @@ en:
   account: "Account"
   msg_invalid: "Invalid email/password combination"
   new_user: "New user?"
+  lb_name: "Name"
   lb_email: "Email"
   lb_pass: "Password"
+  lb_passcf: "Confirmation"
+  save_chages: "Save changes"
   sessions:
     new:
       title: "Log in"

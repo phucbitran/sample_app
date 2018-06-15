@@ -3,3 +3,4 @@ email_max_length: 255
 password_min_length: 6
 size: 80
 checkbox: "1"
+gravatar: 50
