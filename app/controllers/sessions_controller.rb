@@ -30,7 +30,7 @@ class SessionsController < ApplicationController
   end
 
   def login_not_active
-    message  = t "account_not_activated"
+    message = t "account_not_activated"
     flash[:warning] = message
     redirect_to root_path
   end
